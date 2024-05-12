@@ -1,0 +1,23 @@
+disk names -- the names of your main / cache disk 
+	1. MAIN_DISK: your main disk
+	2. CACHE_DISK_#: cache disks 
+whether root or user -- whether this will run on a root or a user
+	1. RUN_AS_ROOT: 
+sector numbers -- where on the disk you specified as the startup disk do you want the cache to begin / end
+	1: CACHE_DISK_#_START_SECTOR
+	2: CACHE_DISK_#_END_SECTOR
+cloud uploading or not -- if no external disk, do you want compactcache to upload it to the cloud?
+	1. CLOUD_CACHE
+cloud drive link -- if yes, where
+	1. CLOUD_ENDPOINT
+interval between checking -- how often do you want compact cache to check the files on your system?
+	1. CACHE_DELAY
+interval between caching -- how long after a file is accessed should it be cached?
+startup check -- do you want it to run at startup
+	1. RUN_ON_STARTUP
+forbidden filetypes -- any file types you don't want it to check
+	1. FORBIDDEN_FILETYPES <filetype1> <filetype2> ... <filetypeN>
+blacklist / whitelist -- do you want it to check ONLY SPECIFIED FOLDERS, or NOT to check ONLY SPECIFIED FOLDERS
+	1. BLACKLIST <folder1> <folder2> ... <folderN>
+	2. WHITELIST <folder1> <folder2> ... <folderN>
+
