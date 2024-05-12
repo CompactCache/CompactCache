@@ -11,8 +11,9 @@ cloud uploading or not -- if no external disk, do you want compactcache to uploa
 cloud drive link -- if yes, where
 	1. CLOUD_ENDPOINT
 interval between checking -- how often do you want compact cache to check the files on your system?
-	1. CACHE_DELAY
+	1. CHECK_DELAY
 interval between caching -- how long after a file is accessed should it be cached?
+	1. ACCESS_CACHE_DELAY
 startup check -- do you want it to run at startup
 	1. RUN_ON_STARTUP
 forbidden filetypes -- any file types you don't want it to check
